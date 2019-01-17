@@ -1,0 +1,273 @@
+body {
+	background: url(images/background.jpg) top center repeat-x #CFDEEA;
+	margin: 0px;
+	padding: 16px 0;
+	font: 11px "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", verdana, arial, helvetica;
+	color: #282828;
+	text-align: center;
+}
+p{
+	font-size:12px;
+	text-indent:5mm;
+	text-align:justify;
+	line-height:16px;
+}
+img {
+	border-style: none;
+}
+img.pic_left{
+float:left;
+padding: 15px 15px  10px  0px;
+}
+a {
+	color: #2E9FED;
+	text-decoration: none;
+}
+a:hover {
+	color: #1471B1;
+}
+
+h3{
+	font-size:14px;
+	color: #0099ff;
+}
+h4{
+	font-size:14px;
+	padding:2px;
+	margin:5px;
+	color: #0099ff;
+	border-bottom:1px #999999 dashed;
+}
+
+h5{
+	font-size:12px;
+	color: #000;
+}
+
+#container {
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: left;
+}
+
+#head {
+	width: 850px;
+	height: 200px;
+	background: url(images/head.jpg) no-repeat;
+}
+
+.top_head_banner{
+	position: absolute;
+	float: left;
+	width:824px;
+	height:184px;
+	background: url(images/banner_top.jpg);
+	left: 13px;
+	top: 13px;
+}
+
+#relogio {
+	FONT-SIZE: 12px;
+	Z-INDEX: 15;
+	LEFT: 550px;
+	VERTICAL-ALIGN: text-top;
+	WIDTH: 270px;
+	COLOR: #0099ff;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	POSITION: absolute;
+	TOP: 210px;
+	HEIGHT: 22px;
+	TEXT-ALIGN: right
+}
+
+#menu {
+	position: absolute;
+	width: 600px;
+	top: 217px;
+	left: 25px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+#menu li {
+	list-style-type: none;
+	float: left;
+	margin: 0 8px;
+	height: 22px;
+	font-size: 14px;
+}
+#menu li a {
+	padding: 0 0 7px 0;
+	height: 22px;
+	color: #8A8A8A;
+}
+#menu li a:hover {
+color:#0099ff;
+}
+#menu .current {
+color:#0099ff;
+font-weight:bold;
+}
+#area {
+	width: 850px;
+	height: 54px;
+	background: url(images/area.jpg) repeat-x;
+}
+
+#main {
+	margin: 0;
+	background: url(images/bg_main.jpg) repeat-y;
+	width: 850px;
+	height: auto; 
+}
+
+#content_left {
+float:left;
+padding: 20px 30px 30px 30px;
+width: 500px;
+height:450px;
+}
+
+#content_right{
+float:left;
+padding:15px 10px 10px 10px;
+width: 250px;
+height:auto;
+}
+
+#formcontato {
+	FONT-SIZE: 12px;
+	Z-INDEX: 15;
+	LEFT: 30px;
+	WIDTH: 450px;
+	COLOR: #000;
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	POSITION: absolute;
+	TOP: 311px;
+	HEIGHT: 391px;
+	text-align: left;
+}
+
+#formcurriculo {
+	FONT-SIZE: 12px;
+	Z-INDEX: 15;
+	LEFT: 58px;
+	WIDTH: 450px;
+	COLOR: #000;
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	POSITION: absolute;
+	TOP: 547px;
+	HEIGHT: 180px;
+	text-align: left;
+}
+
+#forminscrever {
+	FONT-SIZE: 12px;
+	Z-INDEX: 15;
+	LEFT: 30px;
+	WIDTH: 507px;
+	COLOR: #000;
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	POSITION: absolute;
+	TOP: 303px;
+	HEIGHT: 435px;
+	text-align: left;
+}
+
+.item_box{
+	width:240px;
+	height: auto;
+	padding:10px;
+	border-bottom:1px #666666 dashed;
+	line-height: normal;
+}
+.spacer{
+width:auto; height:2px; clear:both; padding-bottom:2px;}
+/*---------contact----------*/
+#form {
+	padding: 0px;
+	margin: 0px;
+}
+#fields label {
+	width: 260px;
+	display: block;
+	padding: 0px;
+}
+#fields input {
+	border: 1px solid #C8D2D9;
+	margin: 0 0 3px 0;
+	width: 260px;
+}
+#fields textarea {
+	border: 1px solid #C8D2D9;
+	margin: 0 0 3px 0;
+	width: 260px;
+	height: 63px;
+}
+#send input {
+	width: 64px;
+	height: 20px;
+	margin: 0px;
+}
+ul {
+	margin: 0 0 20px 0;
+	padding: 0px;
+	list-style-type: none;
+}
+.contact_info{
+	float:left;
+	padding:15px;
+	text-align: left;
+}
+
+/*work------------*/
+.project_details{
+float:left;
+width:200px;
+color:#0099FF;
+padding:10px 0 0 10px;
+}
+#footer {
+text-align:center;
+font-size:10px;
+color:#000033;
+background: url(images/footer.jpg) no-repeat;
+background-position:0px 0px;
+padding-top:10px;
+width: 850px;
+height:60px;
+}
+#footer a {
+	background: none;
+	padding: 0px;
+
+}
+#madeby{
+width:200px;
+height:85px;
+float:right;
+padding-right:30px;
+text-align:center;
+}
+#madeby a{
+text-decoration:none;
+color:#666666;
+}
+#container #footer div {
+	color: #0099ff;
+}
+#container #main #content_left #formcontato #form1 table tbody tr td {
+	text-align: left;
+}
+#container #main #content_left {
+	font-size: 12px;
+}
+#container #main #content_right .item_box li {
+	font-size: 12px;
+}
+#container #main #content_left #form1 table tr td {
+	text-align: left;
+
+}
